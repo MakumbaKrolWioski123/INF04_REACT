@@ -4,6 +4,7 @@ import './index.css'
 import Sklep from './components/Sklep.jsx'
 import Temperatura from './components/Temperatura.jsx'
 import Zamowienia from './components/Zamowienia.jsx'
+import Tekst from "./components/Tekst.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,5 +14,7 @@ createRoot(document.getElementById('root')).render(
         <Temperatura/>
       <h1>Zadanie 3.3</h1>
         <Zamowienia/>
+      <h1>Zadanie 4.3</h1>
+        <Tekst/>
   </StrictMode>,
 )
