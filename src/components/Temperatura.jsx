@@ -22,9 +22,9 @@ function Temperatura() {
 
     return (
         <div>
-            <h2>Temperatura na Farenheit z 20 celsjusza:</h2>
+            <h4>Temperatura na Farenheit z 20 celsjusza:</h4>
             {przelicz(20)}
-            <h2>Pogoda gdy 20 stopni:</h2>
+            <h4>Pogoda gdy 20 stopni:</h4>
             {opiszPogoda(20)}
         </div>
     );
